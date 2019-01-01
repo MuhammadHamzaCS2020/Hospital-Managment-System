@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Language" content="en" />
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#4188c9">
+<meta name="apple-mobile-web-app-status-bar-style"
+	content="black-translucent" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<!-- Generated: 2018-04-16 09:29:05 +0200 -->
+<title>Tasneem Hospital | Admission</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+<script src="./assets/js/require.min.js"></script>
+<script>
+      requirejs.config({
+          baseUrl: '.'
+      });
+    </script>
+<!-- Dashboard Core -->
+<link href="./assets/css/dashboard.css" rel="stylesheet" />
+<script src="./assets/js/dashboard.js"></script>
+<!-- c3.js Charts Plugin -->
+<link href="./assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+<script src="./assets/plugins/charts-c3/plugin.js"></script>
+<!-- Google Maps Plugin -->
+<link href="./assets/plugins/maps-google/plugin.css" rel="stylesheet" />
+<script src="./assets/plugins/maps-google/plugin.js"></script>
+<!-- Input Mask Plugin -->
+<script src="./assets/plugins/input-mask/plugin.js"></script>
+</head>
+<body class="">
+	<div class="page">
+		<div class="page-main">
+
+				<div class="header py-4">
+						<div class="container">
+							<div class="d-flex">
+								<a class="header-brand" href="./index.html">
+									<img src="./img/header/logo.png" class="header-brand-img" alt="tabler logo">
+								</a>
+								<div class="d-flex order-lg-2 ml-auto">
+									
+									<div class="dropdown d-none d-md-flex">
+										<a class="nav-link icon" data-toggle="dropdown"> 
+											<i class="fe fe-bell">
+		
+											</i> 
+											<span class="nav-unread">
+		
+											</span>
+										</a>
+										<div
+											class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+											<a href="#" class="dropdown-item d-flex"> 
+												<span class="avatar mr-3 align-self-center"	style="background-image: url(demo/faces/male/41.jpg)">
+												
+												</span>
+												<div>
+													<strong>Hassan</strong> 
+													Working on the Front Counter...
+													<div class="small text-muted">10 minutes ago</div>
+												</div>
+											</a> 
+											<a href="#" class="dropdown-item d-flex"> 
+												<span class="avatar mr-3 align-self-center"	style="background-image: url(demo/faces/female/1.jpg)">
+												
+												</span>
+												<div>
+													<strong>Hamza</strong> 
+													Designing front end for the Admin...
+													<div class="small text-muted">30 minutes ago</div>
+												</div>
+											</a> 
+											<a href="#" class="dropdown-item d-flex"> 
+												<span class="avatar mr-3 align-self-center" style="background-image: url(demo/faces/female/18.jpg)">
+												
+												</span>
+												<div>
+													<strong>Mubashir</strong> 
+													Sleeping in the Lecture Hall
+													<div class="small text-muted">2 hours ago</div>
+												</div>
+											</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item text-center text-muted-dark">
+												Mark all as read
+											</a>
+										</div>
+									</div>
+		
+		
+									<div class="dropdown">
+										<a href="#" class="nav-link pr-0 leading-none"
+											data-toggle="dropdown"> <span class="avatar"
+											style="background-image: url(./img/header/profile.png)"></span>
+											<span class="ml-2 d-none d-lg-block"> <span
+												class="text-default">Muhammad Hamza</span> <small
+												class="text-muted d-block mt-1">Administrator</small>
+											</span>
+										</a>
+										<div
+											class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+											<a class="dropdown-item" href="#"> <i
+												class="dropdown-icon fe fe-user"></i> Profile
+											</a> <a class="dropdown-item" href="#"> <i
+												class="dropdown-icon fe fe-settings"></i> Settings
+											</a> <a class="dropdown-item" href="#"> <span
+												class="float-right"><span class="badge badge-primary">6</span></span>
+												<i class="dropdown-icon fe fe-mail"></i> Inbox
+											</a> <a class="dropdown-item" href="#"> <i
+												class="dropdown-icon fe fe-send"></i> Message
+											</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="#"> <i
+												class="dropdown-icon fe fe-help-circle"></i> Need help?
+											</a> <a class="dropdown-item" href="#"> <i
+												class="dropdown-icon fe fe-log-out"></i> Sign out
+											</a>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0"
+									data-toggle="collapse" data-target="#headerMenuCollapse"> <span
+									class="header-toggler-icon"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+		
+					<div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+						<div class="container">
+							<div class="row align-items-center">
+								
+								<div class="col-lg order-lg-first">
+									<ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+										<li class="nav-item">
+											<a href="./index.html"	class="nav-link">
+												<i class="fe fe-home">
+												</i> 
+												Home
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:void(0)" class="nav-link" data-toggle="dropdown">
+												<i class="fe fe-plus-square">
+												</i>
+												Patient
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="registration.html" class="dropdown-item ">New Patient</a>
+												<a href="EditRecord.html" class="dropdown-item ">Edit Patient</a> 
+												<a href="EditRecordDel.html" class="dropdown-item ">Delete Patient</a>
+												<a href="admission.html" class="dropdown-item ">Admission</a>
+												<a href="examination.html" class="dropdown-item ">Examination</a> 
+												<a href="opd.html" class="dropdown-item ">OPD</a>
+												<a href="#" class="dropdown-item ">Bill</a>
+												<a href="#" class="dropdown-item ">Data</a> 
+												<a href="#" class="dropdown-item ">Clinical Sheet</a>
+												<a href="#" class="dropdown-item ">Therapy</a>
+												<a href="#" class="dropdown-item ">Merge</a> 
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="javascript:void(0)" class="nav-link" data-toggle="dropdown">
+												<i  class="fa fa-tint">
+												</i> 
+												Vaccines
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+													<a href="#" class="dropdown-item ">Vaccines</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="javascript:void(0)"class="nav-link" data-toggle="dropdown">
+												<i class="fa fa-medkit">
+												</i> 
+												Laboratory
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">Laboratory</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fa fa-h-square">
+		
+												</i>
+												 Pharmacy
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">Pharmaceuticals</a>
+												<a href="#" class="dropdown-item ">Pharmaceuticals Stock</a>
+												<a href="#" class="dropdown-item ">Pharmaceuticals Stock Ward</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fe fe-check-square">
+												</i>
+												 OPD
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">OPD</a>
+											</div>
+										</li>
+		
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fe fe-database">
+												</i>
+													General Data
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">General Data</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fa fa-font">
+												</i>
+												Accounting
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">New Bill</a>
+												<a href="#" class="dropdown-item ">Bill Manager</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fe fe-check-square">
+												</i>
+												Records
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">Records</a>
+												<a href="#" class="dropdown-item ">Print Exams List</a>
+												<a href="#" class="dropdown-item ">Print Disease List</a>
+											</div>
+										</li>
+										<li class="nav-item dropdown">
+											<a href="#" class="nav-link" data-toggle="dropdown">
+												<i class="fa fa-header">
+												</i>
+												Help
+											</a>
+											<div class="dropdown-menu dropdown-menu-arrow">
+												<a href="#" class="dropdown-item ">Help</a>
+											</div>
+										</li>
+											
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+			<div class="my-3 my-md-5">
+				<div class="container">
+					<div class="row row-cards">
+
+
+
+
+						<div class="col-lg-4">
+							<form class="card">
+								<br>
+								<div class="container" style='height:20; width:20;'>
+									
+									<div class="row">
+										<div class="col-lg-4">
+											<img src="./img/admissionForm/UserUploadImage.png" class="" alt="User Image"  width="">
+										</div>
+										<div class="col-lg-8">
+											<table >
+												<tr>
+													<td>Code: 1 </td>
+												</tr>
+												<tr>
+													<td>Name: Muhammad Khan</td>
+												</tr>
+												<tr>
+													<td>Age: 20y/4m/2d</td>
+												</tr>
+												<tr>
+													<td>Sex: Male</td>
+												</tr>
+												<tr>
+													<td>Blood: A-</td>
+												</tr>	
+											</table>
+										</div>
+									</div>								
+									
+								</div>
+								<div  class="card-body">
+									<div class="bordered1" class="form-group">
+										<label class="form-label">CNIC No</label> <input
+											type="text" class="form-control"
+											name="" placeholder=""
+											value="35102-4948344-1" disabled>
+									</div><br>
+									<div class="bordered1" class="form-group">
+										<label class="form-label">Address</label> <input
+										type="text" class="form-control"
+										name="" placeholder=""
+										value="Ban Hafiz Gee" disabled>
+									</div><br>
+									<div class="bordered2" class="form-group">
+										<label class="form-label">Parents</label> 
+										<input type="text" class="form-control"name="" placeholder="" value="Khan Muhammad" disabled><br>
+										<input type="text" class="form-control"name="" placeholder="" value="Choti Rani" disabled>
+									</div><br>
+									<div  class="registrationForm">
+										<label class="form-label">Notes </label>
+										<textarea class="form-control" name="example-textarea-input" rows="6" placeholder="Content.." disabled>Camelot!</textarea>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+
+
+
+
+
+
+						<div class="col-lg-8">
+							<div class="card">
+									<form action="#" method="post" class="card">
+										<div class="card-header">
+											<h3 class="card-title">Admission / Discharge</h3>
+										</div>
+										
+										<div class="card-body">
+											<div class="row">
+												<div class="col-md-4 col-lg-4">
+													<div class="form-group">
+														<label class="form-label">Ward Type</label> 
+														<select name="beast" id="select-users" class="form-control custom-select">
+															<option value="0">Select Ward</option>
+															<option value="1">Internal Medicine</option>
+															<option value="2">Nursery</option>
+															<option value="3">Surgery</option>
+														
+														</select>
+													</div>
+
+													<div class="form-label">Date</div>
+														<div  style="height:130px;">
+															<div class="form-group">
+																<div class='input-group date' id='datetimepicker9'>
+																	<input type='date' class="form-control" />
+																	<span class="input-group-addon">
+																		<span class="glyphicon glyphicon-calendar">
+																		</span>
+																	</span>
+																</div>
+															</div>
+														</div>
+														<script type="Date/javascript">
+															$(function () {
+																$('#datetimepicker9').datetimepicker({
+																	viewMode: 'years'
+																});
+															});
+														</script>
+												
+												</div>
+												<div class="col-md-4 col-lg-4">
+													<div class="form-group">
+														<label class="form-label">From Health Unit</label> 
+														<input type="text" class="form-control"	id="healthUnit" placeholder="">
+													</div>
+													<div class="form-group">
+														<label class="form-label">Admission Type</label> 
+														<select name="beast" id="select-users" class="form-control custom-select">
+															<option value="0">Select Admission Type</option>
+															<option value="1">Ambulance</option>
+															<option value="2">Self</option>
+															<option value="3">Referral</option>
+														</select>
+													</div>
+
+												</div>
+												<div class="col-md-4 col-lg-4">
+													<div class="form-group">
+														<label class="form-label">Prograssive in Year</label> 
+														<input type="text" class="form-control"	id="healthUnit" placeholder="">
+													</div>
+													<div class="form-group">
+														<label class="form-label">Malnutrition</label> 
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+															class="custom-control custom-radio custom-control-inline">
+															<input type="radio" class="custom-control-input"
+															name="example-inline-radios" value="malyes"> <span
+															class="custom-control-label">Yes</span>
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+															class="custom-control custom-radio custom-control-inline">
+															<input type="radio" class="custom-control-input"
+															name="example-inline-radios" value="malno"> <span
+															class="custom-control-label">No</span>
+														</label>
+													</div>
+												</div>
+												
+											</div>
+
+
+											<div class="row">
+												<div class="col-md-12 col-lg-12">
+													<div class="form-group">
+														<label class="form-label">Diagnosis -IN-*</label> 
+															<select name="beast" id="select-users" class="form-control custom-select">
+																<option value="0">Select Diagnosis</option>
+																<option value="0">Type 1</option>
+																<option value="1">Type 2</option>
+																<option value="2">Type 3</option>
+																<option value="3">Type 4</option>
+															
+															</select>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="row">
+													<div class="col-md-4 col-lg-4">
+														
+														<div class="form-label">Discharge Date</div>
+															<div  style="height:130px;">
+																<div class="form-group">
+																	<div class='input-group date' id='datetimepicker9'>
+																		<input type='date' class="form-control" />
+																		<span class="input-group-addon">
+																			<span class="glyphicon glyphicon-calendar">
+																			</span>
+																		</span>
+																	</div>
+																</div>
+															</div>
+															<script type="Date/javascript">
+																$(function () {
+																	$('#datetimepicker9').datetimepicker({
+																		viewMode: 'years'
+																	});
+																});
+															</script>
+													
+													</div>
+													<div class="col-md-4 col-lg-4">
+														<div class="form-group">
+															<label class="form-label">Bed Days</label> 
+															<input type="number" class="form-control"	id="healthUnit" placeholder="">
+														</div>
+															
+													</div>
+													<div class="col-md-4 col-lg-4">
+															<div class="form-group">
+																<label class="form-label">Discharge Type</label> 
+																<select name="beast" id="select-users" class="form-control custom-select">
+																	<option value="0">Select Type</option>
+																	<option value="1">Referred</option>
+																	<option value="2">Dead</option>
+																	<option value="3">Normal Discharge</option>
+																	<option value="3">Escape</option>
+																</select>
+															</div>
+													</div>
+											</div>
+
+											<div  class="row">
+												<div class="col-md-6 col-lg-6">
+													<div class="form-group">
+														<label class="form-label">Diagnos OUT 1</label> 
+															<select name="beast" id="select-users" class="form-control custom-select">
+																<option value="0">Select Diagnos</option>
+																<option value="0">Type 1</option>
+																<option value="1">Type 2</option>
+																<option value="2">Type 3</option>
+																<option value="3">Type 4</option>
+															</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-6">
+													<div class="form-group">
+														<label class="form-label">Diagnos OUT 2</label> 
+															<select name="beast" id="select-users" class="form-control custom-select">
+																<option value="0">Select Diagnosis</option>
+																<option value="0">Type 1</option>
+																<option value="1">Type 2</option>
+																<option value="2">Type 3</option>
+																<option value="3">Type 4</option>
+															</select>
+													</div>
+												</div>
+												
+											</div>
+
+										</div>													
+									</form>
+
+
+
+							</div>
+							<div class="card">
+									<form action="#" method="post" class="card">
+											<div class="card-header">
+												<h3 class="card-title">Operation</h3>
+											</div>
+											
+											<div class="card-body">
+												<div class="row">
+													<div class="col-md-6 col-lg-6">
+														
+														<div class="form-label">Operation Date</div>
+															<div  style="height:130px;">
+																<div class="form-group">
+																	<div class='input-group date' id='datetimepicker9'>
+																		<input type='date' class="form-control" />
+																		<span class="input-group-addon">
+																			<span class="glyphicon glyphicon-calendar">
+																			</span>
+																		</span>
+																	</div>
+																</div>
+															</div>
+															<script type="Date/javascript">
+																$(function () {
+																	$('#datetimepicker9').datetimepicker({
+																		viewMode: 'years'
+																	});
+																});
+															</script>
+																										
+													
+													</div>
+													
+													<div class="col-md-6 col-lg-6">
+														<div class="form-group">
+															<label class="form-label">Operation Type</label> 
+																<select name="beast" id="select-users" class="form-control custom-select">
+																	<option value="0">Select Type</option>
+																	<option value="1">Type 1</option>
+																	<option value="2">Type 2</option>
+																	<option value="3">Type 3</option>
+																</select>
+															</div>
+													</div>
+													
+												</div>
+												
+												<div class="row">
+
+													<div class="col-md-6 col-lg-6">
+															
+																	<div class="form-group">
+																		<label class="form-label">Operation Result</label> 
+																		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+																			class="custom-control custom-radio custom-control-inline">
+																			<input type="radio" class="custom-control-input"
+																			name="example-inline-radios" value="positive"> <span
+																			class="custom-control-label">Positive</span>
+																		</label>
+																		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+																			class="custom-control custom-radio custom-control-inline">
+																			<input type="radio" class="custom-control-input"
+																			name="example-inline-radios" value="nagitive"> <span
+																			class="custom-control-label">Nagitive</span>
+																		</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label
+																		class="custom-control custom-radio custom-control-inline">
+																		<input type="radio" class="custom-control-input"
+																		name="example-inline-radios" value="opUnknown"> <span
+																		class="custom-control-label">Unknown</span>
+																	</label>
+																	</div>
+													</div>
+
+													<div class="col-md-6 col-lg-6">	
+														<div class="form-group">
+															<label class="form-label">Transfusional Unit</label> 
+															<input type="number" class="form-control"	id="transfusionalUnit" placeholder="">
+														</div>
+													</div>
+
+												</div>
+
+
+
+
+												<div class="row">
+													<div class="col-md-12 col-lg-12">
+															<div class="registrationForm">
+																	<label class="form-label">Note <span class="form-label-small">56/100</span></label>
+																	<textarea class="form-control" name="example-textarea-input" rows="8" placeholder="Content..">Camelot!</textarea>
+															</div>
+													</div>
+												</div>
+
+											</div>													
+											
+														<div class="row">
+															<div class="col-md-6 col-lg-4">
+				
+															</div>
+															<div class="col-md-6 col-lg-4">
+				
+															</div>
+															<div class="col-md-6 col-lg-4">
+																<div class="d-flex">
+																	<div class="row">
+																		<div class="col-md-6 col-lg-4">
+				
+																		</div>
+																		<div class="col-md-6 col-lg-4">
+																			<button type="cancel" class="btn btn-primary ml-auto">Reset</button>
+																		</div>
+																		<div class="col-md-6 col-lg-4">
+																			<button type="submit" class="btn btn-primary ml-auto">Save Data</button>
+																		</div>
+																	</div>
+																	
+																</div>
+															</div>
+														</div>
+													
+										</form>
+							</div>
+						</div>
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+				<div class="container">
+					<div class="row align-items-center flex-row-reverse">
+						
+						<div class="col-12  ">
+							Copyright © 2018 
+							<a href="#">Tasneem Hospital</a>
+							All	rights reserved.
+						</div>
+					</div>
+				</div>
+		</footer>
+	</div>
+</body>
+</html>
